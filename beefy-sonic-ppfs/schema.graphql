@@ -1,0 +1,7 @@
+type ProxyCreated @entity(immutable: true) {
+  id: Bytes!
+  proxy: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
